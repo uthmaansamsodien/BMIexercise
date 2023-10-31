@@ -1,6 +1,6 @@
 let heightInput = document.querySelector ('#height');
 let weightInput = document.querySelector('#weight');
-let calculate = document.querySelector('#calculate');
+let calculate = document.querySelector('.calculate');
 let result = document.querySelector('#answer');
 let statement = document.querySelector('#statement');
 calculate.addEventListener('click', ()=>{
