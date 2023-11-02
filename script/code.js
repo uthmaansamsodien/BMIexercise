@@ -21,5 +21,13 @@ calculate.addEventListener('click', ()=>{
         statement.innerText = "You're obese";
     }
 })
+document.querySelector(".clear").
+addEventListener("click", ()=>{
+    let remove = heightInput.value; weightInput.value; statement.innerHTML; result.innerHTML;
+    heightInput.value = "";
+    weightInput.value = "";
+    statement.innerHTML = "";
+    result.innerHTML = "";
+})
 
 
